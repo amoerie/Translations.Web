@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translations.Web", "Translations.Web\Translations.Web.csproj", "{FCCC6B9D-6A68-4F77-82B2-4062F56CA2CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translations.Core", "Translations.Core\Translations.Core.csproj", "{7A7C3109-059D-4CF1-9172-DB3324290B3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translations.Persistence", "Translations.Persistence\Translations.Persistence.csproj", "{AAB6F690-323E-4D18-8B51-8A8C39239073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translations.Test", "Translations.Test\Translations.Test.csproj", "{E4BEBA0D-3CB4-4BFE-BAF8-A9D629BFAFAA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.ris.be:8080/tfs/ris-code
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Translations.Core\\Translations.Core.csproj
+		SccProjectName1 = Translations.Core
+		SccLocalPath1 = Translations.Core
+		SccProjectUniqueName2 = Translations.Persistence\\Translations.Persistence.csproj
+		SccProjectName2 = Translations.Persistence
+		SccLocalPath2 = Translations.Persistence
+		SccProjectUniqueName3 = Translations.Test\\Translations.Test.csproj
+		SccProjectName3 = Translations.Test
+		SccLocalPath3 = Translations.Test
+		SccProjectUniqueName4 = Translations.Web\\Translations.Web.csproj
+		SccProjectName4 = Translations.Web
+		SccLocalPath4 = Translations.Web
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCCC6B9D-6A68-4F77-82B2-4062F56CA2CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCC6B9D-6A68-4F77-82B2-4062F56CA2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCC6B9D-6A68-4F77-82B2-4062F56CA2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCC6B9D-6A68-4F77-82B2-4062F56CA2CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7C3109-059D-4CF1-9172-DB3324290B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7C3109-059D-4CF1-9172-DB3324290B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7C3109-059D-4CF1-9172-DB3324290B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7C3109-059D-4CF1-9172-DB3324290B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB6F690-323E-4D18-8B51-8A8C39239073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB6F690-323E-4D18-8B51-8A8C39239073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB6F690-323E-4D18-8B51-8A8C39239073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB6F690-323E-4D18-8B51-8A8C39239073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4BEBA0D-3CB4-4BFE-BAF8-A9D629BFAFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BEBA0D-3CB4-4BFE-BAF8-A9D629BFAFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BEBA0D-3CB4-4BFE-BAF8-A9D629BFAFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4BEBA0D-3CB4-4BFE-BAF8-A9D629BFAFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

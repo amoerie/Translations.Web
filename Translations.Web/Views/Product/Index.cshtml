@@ -1,0 +1,19 @@
+﻿@using System.Globalization
+@using Translations.Core
+@using Translations.Core.Extensions
+@using Translations.Core.Models
+@using Translations.Web.Infrastructure.Helpers
+@model Translations.Web.Models.ProductsIndexViewModel
+
+<p>
+    Culture: [ Name = @Model.CultureInfo.Name , DisplayName = @Model.CultureInfo.DisplayName, NativeName = @Model.CultureInfo.NativeName]
+</p>
+
+<ul>
+    @foreach (Product product in Model.Products)
+    {
+        <li>
+            [ Name = @(product.Current().Name) ] @Html.Link("Detail", new { id = product.Id }).ToHtml("Detail")
+        </li>
+    }
+</ul>

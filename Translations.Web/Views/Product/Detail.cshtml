@@ -1,0 +1,14 @@
+﻿@using Translations.Core.Extensions
+@using Translations.Core.Models
+@using Translations.Web.Infrastructure.Helpers
+@model Translations.Core.Models.Product
+
+<h2>Product</h2>
+
+<p>
+    [ Name = @(Model.Current().Name) ]
+</p>
+
+<p>
+    [ < @Html.Link("Index").ToHtml("Terug naar index") ]
+</p>
